@@ -49,7 +49,7 @@ const ExperienceTimeline = () => {
                     <ul className="timeline">
                         {experienceList.map((experience, index) => (
                             <li key={index}>
-                                <div className="timeline-content">
+                                <div className="timeline-content mt-3">
                                     <h3>{experience.title}</h3>
                                     <h4>{experience.company}</h4>
                                     <p className="duration">{experience.duration}</p>

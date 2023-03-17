@@ -3,9 +3,9 @@ import styles from './CompanyTimeline.module.css';
 
 const CompanyTimeline = () => {
   const companies = [
-    { id: 1, logo: '/path/to/miami-university-logo.png', alt: 'Miami University' },
-    { id: 2, logo: '/path/to/air-force-logo.png', alt: 'Wright-Patterson Air Force Base' },
-    { id: 3, logo: '/path/to/aws-logo.png', alt: 'Amazon Web Services' },
+    { id: 1, logo: '/logos/MiamiUniversity-Logo.png', alt: 'Miami University' },
+    { id: 2, logo: '/logos/AFLCMC-Logo.png', alt: 'AFLCMC' },
+    { id: 3, logo: '/logos/AWS-Logo.png', alt: 'Amazon Web Services' },
   ];
 
   return (

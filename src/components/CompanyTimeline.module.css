@@ -1,0 +1,43 @@
+.timeline {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #000;
+  z-index: -1;
+  margin: 0 1rem;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 1rem;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid black;
+  margin-top: 2px;
+}
+
+.logo {
+  max-width: 100px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+}

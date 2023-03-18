@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import styles from './Timeline.module.css';
 
 const ExperienceTimeline = () => {
     const experienceList = [
@@ -40,7 +39,7 @@ const ExperienceTimeline = () => {
     return (
         <Container>
             <Row>
-                <Col>
+                <Col className="mt-3">
                     <h2>Experience</h2>
                 </Col>
             </Row>
@@ -62,6 +61,14 @@ const ExperienceTimeline = () => {
                             </li>
                         ))}
                     </ul>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <div>
+                        <p> <a href="https://www.computer.org/csdl/proceedings-article/csci/2021/584100a747/1EpL7AEhgxa" target="_blank" rel="noreferrer">Published paper in IEEE CPS</a> </p>
+                        <p> <a href="https://www.miamioh.edu/cec/news/2022/01/Lab-in-focus-CEC-Assistant-Professors-collaborate-in-Cybersecurity-research.html" target="_blank" rel="noreferrer">Article Where My Research Is Mentioned</a> </p>
+                    </div>
                 </Col>
             </Row>
         </Container>

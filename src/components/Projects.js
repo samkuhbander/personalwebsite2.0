@@ -65,7 +65,7 @@ const Projects = () => {
         {projectList.map((project, index) => (
           <Col key={index} md={4} className="mb-4">
             <Card className="h-100 d-flex flex-column">
-              <img src={project.imageurl} alt={project.name} className="img-fluid" height="300" width="300" />
+              <img src={project.imageurl} alt={project.name} className="img-fluid align-self-center" height="100%" width="100%" />
               <Card.Body className="flex-grow-1">
                 <Card.Title>{project.name}</Card.Title>
                 <Card.Text>{project.description}</Card.Text>
